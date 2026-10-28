@@ -39,6 +39,10 @@
     "gmail": {
       "type": "http",
       "url": ""
+    },
+    "freedcamp": {
+      "type": "http",
+      "url": "https://mcp.freedcamp.com/mcp"
     }
   }
 }

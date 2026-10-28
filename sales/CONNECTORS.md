@@ -12,16 +12,16 @@ Every skill also works with nothing connected: upload an export or paste notes, 
 
 | Category | Placeholder | Included servers | Other options |
 |----------|-------------|-----------------|---------------|
-| CRM | `~~CRM` | HubSpot, Salesforce\*, Close, Monday | Pipedrive, Attio, Zoho CRM, Copper |
+| CRM | `~~CRM` | HubSpot, Salesforce\*, Close, Monday, Freedcamp (CRM) | Pipedrive, Attio, Zoho CRM, Copper |
 | Email | `~~email` | Gmail, Microsoft 365 (Outlook)\* |  |
 | Calendar | `~~calendar` | Google Calendar, Calendly, Microsoft 365 (Outlook)\* |  |
 | Chat | `~~chat` | Slack, Microsoft 365 (Teams)\* |  |
-| Docs and knowledge base | `~~knowledge base` | Google Drive, Notion, Atlassian (Confluence), Microsoft 365 (SharePoint)\* | Box, Dropbox, Guru |
+| Docs and knowledge base | `~~knowledge base` | Google Drive, Notion, Atlassian (Confluence), Microsoft 365 (SharePoint)\*, Freedcamp (wikis) | Box, Dropbox, Guru |
 | Conversation intelligence | `~~conversation intelligence` | Gong, Fireflies, Zoom, Otter.ai | Granola, Fathom, Chorus |
 | Data enrichment | `~~data enrichment` | Clay, ZoomInfo, Apollo, Lusha, Crunchbase | Clearbit |
 | Sales engagement | `~~sales engagement` | Outreach, Apollo | Salesloft |
 | Competitive intelligence | `~~competitive intelligence` | Similarweb | Crayon, Klue |
-| Project tracker | `~~project tracker` | Atlassian (Jira) | Linear, Asana |
+| Project tracker | `~~project tracker` | Atlassian (Jira), Freedcamp | Linear, Asana |
 
 ## Salesforce and Microsoft 365
 

@@ -27,6 +27,10 @@
     "asana": {
       "type": "http",
       "url": "https://mcp.asana.com/v2/mcp"
+    },
+    "freedcamp": {
+      "type": "http",
+      "url": "https://mcp.freedcamp.com/mcp"
     }
   }
 }

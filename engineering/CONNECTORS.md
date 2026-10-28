@@ -12,8 +12,8 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 |----------|-------------|-----------------|---------------|
 | Chat | `~~chat` | Slack | Microsoft Teams |
 | Source control | `~~source control` | GitHub | GitLab, Bitbucket |
-| Project tracker | `~~project tracker` | Linear, Asana, Atlassian (Jira/Confluence) | Shortcut, ClickUp |
-| Knowledge base | `~~knowledge base` | Notion | Confluence, Guru, Coda |
+| Project tracker | `~~project tracker` | Linear, Asana, Atlassian (Jira/Confluence), Freedcamp | Shortcut, ClickUp |
+| Knowledge base | `~~knowledge base` | Notion, Freedcamp (wikis) | Confluence, Guru, Coda |
 | Monitoring | `~~monitoring` | Datadog | New Relic, Grafana, Splunk |
 | Incident management | `~~incident management` | PagerDuty | Opsgenie, Incident.io, FireHydrant |
 | CI/CD | `~~CI/CD` | — | CircleCI, GitHub Actions, Jenkins, BuildKite |

@@ -109,7 +109,7 @@ Connect your tools for a richer experience:
 | Category | Examples | What It Enables |
 |---|---|---|
 | **Source control** | GitHub, GitLab | PR diffs, commit history, branch status |
-| **Project tracker** | Linear, Jira, Asana | Ticket status, sprint data, assignments |
+| **Project tracker** | Linear, Jira, Asana, Freedcamp | Ticket status, sprint data, assignments |
 | **Monitoring** | Datadog, New Relic | Logs, metrics, alerts, dashboards |
 | **Incident management** | PagerDuty, Opsgenie | On-call schedules, incident tracking, paging |
 | **Chat** | Slack, Teams | Team discussions, standup channels |

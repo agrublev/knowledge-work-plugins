@@ -12,7 +12,7 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 |----------|-------------|-----------------|---------------|
 | Chat | `~~chat` | Slack | Microsoft Teams |
 | Design tool | `~~design tool` | Figma | Sketch, Adobe XD, Framer |
-| Knowledge base | `~~knowledge base` | Notion | Confluence, Guru, Coda |
-| Project tracker | `~~project tracker` | Linear, Asana, Atlassian (Jira/Confluence) | Shortcut, ClickUp |
+| Knowledge base | `~~knowledge base` | Notion, Freedcamp (wikis) | Confluence, Guru, Coda |
+| Project tracker | `~~project tracker` | Linear, Asana, Atlassian (Jira/Confluence), Freedcamp | Shortcut, ClickUp |
 | User feedback | `~~user feedback` | Intercom | Productboard, Canny, UserVoice, Dovetail |
 | Product analytics | `~~product analytics` | — | Amplitude, Mixpanel, Heap, FullStory |

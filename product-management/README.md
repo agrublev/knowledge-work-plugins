@@ -107,7 +107,7 @@ Connect your project management and communication tools for the best experience.
 
 **Included MCP connections:**
 - Chat (Slack) for team context and stakeholder threads
-- Project tracker (Linear, Asana, monday.com, ClickUp, Atlassian) for roadmap integration, ticket context, and status tracking
+- Project tracker (Linear, Asana, monday.com, ClickUp, Atlassian, Freedcamp) for roadmap integration, ticket context, and status tracking
 - Knowledge base (Notion) for existing specs, research, and meeting notes
 - Design (Figma) for design context and handoff
 - Product analytics (Amplitude, Pendo) for usage data, metrics, and behavioral analysis
