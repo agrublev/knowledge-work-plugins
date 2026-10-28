@@ -90,7 +90,7 @@ Connect your communication and project management tools for the best experience.
 - Chat (Slack) for team context and message scanning
 - Email and calendar (Microsoft 365) for action item discovery
 - Knowledge base (Notion) for reference documents
-- Project tracker (Asana, Linear, Atlassian, monday.com, ClickUp) for task syncing
+- Project tracker (Asana, Linear, Atlassian, monday.com, ClickUp, Freedcamp) for task syncing
 - Office suite (Microsoft 365) for documents
 
 **Additional options:**

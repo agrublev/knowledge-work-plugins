@@ -109,7 +109,7 @@ Connect your tools for a richer experience:
 | Category | Examples | What It Enables |
 |---|---|---|
 | **ITSM** | ServiceNow, Zendesk | Ticket management, change requests, incident tracking |
-| **Project tracker** | Asana, Jira, monday.com | Project status, resource allocation, task tracking |
+| **Project tracker** | Asana, Jira, monday.com, Freedcamp | Project status, resource allocation, task tracking |
 | **Knowledge base** | Notion, Confluence | Process docs, runbooks, policies |
 | **Chat** | Slack, Teams | Team coordination, approvals, status updates |
 | **Calendar** | Google Calendar, Microsoft 365 | Meeting scheduling, deadline tracking |

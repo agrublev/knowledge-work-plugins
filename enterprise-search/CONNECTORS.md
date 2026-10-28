@@ -15,7 +15,7 @@ This plugin uses `~~category` references extensively as source labels in search 
 | Chat | `~~chat` | Slack | Microsoft Teams, Discord |
 | Email | `~~email` | Microsoft 365 | — |
 | Cloud storage | `~~cloud storage` | Microsoft 365 | Dropbox |
-| Knowledge base | `~~knowledge base` | Notion, Guru | Confluence, Slite |
-| Project tracker | `~~project tracker` | Atlassian (Jira/Confluence), Asana | Linear, monday.com |
-| CRM | `~~CRM` | *(not pre-configured)* | Salesforce, HubSpot |
+| Knowledge base | `~~knowledge base` | Notion, Guru, Freedcamp (wikis) | Confluence, Slite |
+| Project tracker | `~~project tracker` | Atlassian (Jira/Confluence), Asana, Freedcamp | Linear, monday.com |
+| CRM | `~~CRM` | Freedcamp (CRM) | Salesforce, HubSpot |
 | Office suite | `~~office suite` | Microsoft 365 | Google Workspace |

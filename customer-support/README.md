@@ -50,7 +50,7 @@ Connect your support platform, knowledge base, and communication tools for the b
 - Support platform (Intercom) for ticket history and customer conversations
 - CRM (HubSpot) for account details and contact information
 - Knowledge base (Guru, Notion) for internal documentation and runbooks
-- Project tracker (Atlassian) for bug reports and feature requests
+- Project tracker (Atlassian, Freedcamp) for bug reports and feature requests
 - Email and cloud storage (Microsoft 365) for customer correspondence
 
 **Additional options:**

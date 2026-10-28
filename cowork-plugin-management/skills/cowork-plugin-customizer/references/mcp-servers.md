@@ -28,7 +28,7 @@ Display Connect buttons to let users install/connect MCPs.
 
 | Category | Search Keywords |
 |----------|-----------------|
-| `project-management` | `["asana", "jira", "linear", "monday", "tasks"]` |
+| `project-management` | `["asana", "jira", "linear", "monday", "freedcamp", "tasks"]` |
 | `software-coding` | `["github", "gitlab", "bitbucket", "code"]` |
 | `chat` | `["slack", "teams", "discord"]` |
 | `documents` | `["google docs", "notion", "confluence"]` |

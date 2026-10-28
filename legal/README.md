@@ -187,7 +187,7 @@ The plugin connects to your tools through MCP (Model Context Protocol) servers:
 | Chat | Slack, Teams | Team requests, notifications, triage |
 | Cloud storage | Box, Egnyte | Playbooks, templates, precedents |
 | Office suite | Microsoft 365 | Email, calendar, documents |
-| Project tracker | Atlassian (Jira/Confluence) | Matter tracking, tasks |
+| Project tracker | Atlassian (Jira/Confluence), Freedcamp | Matter tracking, tasks |
 
 See [CONNECTORS.md](CONNECTORS.md) for the full list of supported integrations, including CLM, CRM, e-signature, and additional options.
 
