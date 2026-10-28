@@ -36,8 +36,8 @@ Display Connect buttons to let users install/connect MCPs.
 | `email` | `["gmail", "outlook", "email"]` |
 | `design-graphics` | `["figma", "sketch", "design"]` |
 | `analytics-bi` | `["datadog", "grafana", "analytics"]` |
-| `crm` | `["salesforce", "hubspot", "crm"]` |
-| `wiki-knowledge-base` | `["notion", "confluence", "outline", "wiki"]` |
+| `crm` | `["salesforce", "hubspot", "freedcamp", "crm"]` |
+| `wiki-knowledge-base` | `["notion", "confluence", "outline", "freedcamp", "wiki"]` |
 | `data-warehouse` | `["bigquery", "snowflake", "redshift"]` |
 | `conversation-intelligence` | `["gong", "chorus", "call recording"]` |
 

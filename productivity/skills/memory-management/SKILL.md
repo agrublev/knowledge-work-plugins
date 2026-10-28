@@ -202,6 +202,7 @@ $1.2M budget, 6-month timeline. Critical path for Horizon project.
 |------|----------|---------------|
 | Slack | Communication | - |
 | Asana | Engineering tasks | - |
+| Freedcamp | Client projects, wikis, time tracking | "FC" |
 | Salesforce | CRM | "SF" or "the CRM" |
 | Notion | Docs/wiki | - |
 

@@ -35,7 +35,11 @@ logged on [account] recently."
 
 Logging needs a crm connector with a create tool. At files-only (no crm
 connector), or when the connector has no create tool or refuses it,
-output the drafted log entry as paste-ready text instead. Scheduled runs
+output the drafted log entry as paste-ready text instead. With Freedcamp
+as the crm, log calls with `fc_add_crm_call` and follow-ups with
+`fc_add_crm_task` (both take the CRM group's `group_id` from
+`fc_get_groups_projects`); read mode uses `fc_fetch_crm_calls` and
+`fc_fetch_crm_tasks`. Scheduled runs
 log only what the user set the schedule up to log; anything else stops
 at the drafted entry.
 

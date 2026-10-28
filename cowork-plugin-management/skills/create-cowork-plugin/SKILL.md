@@ -123,7 +123,7 @@ workflows in terms of categories rather than specific products.
 | Category        | Placeholder         | Options                         |
 | --------------- | ------------------- | ------------------------------- |
 | Chat            | `~~chat`            | Slack, Microsoft Teams, Discord |
-| Project tracker | `~~project tracker` | Linear, Asana, Jira             |
+| Project tracker | `~~project tracker` | Linear, Asana, Jira, Freedcamp  |
 ```
 
 ### ${CLAUDE_PLUGIN_ROOT} Variable

@@ -128,6 +128,22 @@ assignee_any: "me"  (for "my tasks" queries)
 | `after:2025-01-01` | `modified_on_after: "2025-01-01"` |
 | `type:milestone` | `resource_subtype: "milestone"` |
 
+**Freedcamp** has no text search, so fetch with filters and match titles and descriptions yourself:
+```
+fc_fetch_tasks:   no project_id (all projects), filters.status: ["STATUS_NOT_STARTED", "STATUS_IN_PROGRESS"]
+                  filters.assigned_to_id: [<id from fc_fetch_current_session>]  (for "my tasks")
+fc_fetch_issues / fc_fetch_milestones / fc_fetch_discussions / fc_fetch_wikis:  per project_id from fc_get_groups_projects
+```
+
+| Enterprise filter | Freedcamp parameter |
+|------------------|---------------------|
+| `from:sarah` | `filters.assigned_to_id` or `filters.created_by_id` (user IDs from `fc_fetch_users`) |
+| `after:2025-01-01` | `filters.created_date_from: "2025-01-01"` (or `due_date_from` for deadline queries) |
+| `before:2025-02-01` | `filters.created_date_to: "2025-02-01"` |
+| `in:phoenix` | `project_id` of the project named Phoenix |
+| `type:milestone` | `fc_fetch_milestones` instead of `fc_fetch_tasks` |
+| `type:wiki` / `type:discussion` / `type:issue` | `fc_fetch_wikis` / `fc_fetch_discussions` / `fc_fetch_issues` |
+
 ## Result Ranking
 
 ### Relevance Scoring

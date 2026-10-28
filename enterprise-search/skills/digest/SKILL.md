@@ -62,6 +62,7 @@ Check your MCP settings to add ~~chat, ~~email, ~~cloud storage, or other tools.
 - Tasks assigned to the user (new or updated)
 - Tasks completed by others that the user follows
 - Comments on tasks the user is involved with
+- With Freedcamp, `fc_fetch_notifications` returns this feed directly (activity on items the user follows, last 60 days); filter it to the digest window
 
 **~~CRM:**
 - Opportunity stage changes
