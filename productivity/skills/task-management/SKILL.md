@@ -81,6 +81,23 @@ Task format:
 - Sub-bullets for additional context
 - Keep Done section for ~1 week, then clear old items
 
+## Project Tracker Sync
+
+If a project tracker is connected (Freedcamp, Asana, Linear, Jira, monday.com, ClickUp — see [CONNECTORS.md](../../CONNECTORS.md)), TASKS.md stays the working list and the tracker stays the team's source of truth:
+
+- **"What's on my plate":** also fetch open tasks assigned to the user in the tracker, and list any that aren't in TASKS.md separately, with their project.
+- **"Add a task":** add it to TASKS.md. If it belongs to a tracked project, offer to create it in the tracker too, and note the tracker link in a sub-bullet.
+- **"Done with X":** if the task came from the tracker, offer to mark it complete there as well.
+
+Never create, complete, or edit tracker items without the user's confirmation.
+
+**With Freedcamp:**
+- Call `fc_get_groups_projects` once to resolve project names, and `fc_fetch_current_session` for the user's ID.
+- My open tasks: `fc_fetch_tasks` with no `project_id`, `filters.assigned_to_id: [<user id>]`, `filters.status: ["STATUS_NOT_STARTED", "STATUS_IN_PROGRESS", "STATUS_REVIEW"]`, `filters.order_due_date: "asc"`.
+- Create: `fc_add_item_by_names` (`project_name`, `app_name: "Tasks"`, `title`), or `fc_add_task` when you need `due_date`, `assigned_to_id`, `priority`, or a `list_id`.
+- Complete: `fc_update_status` with `status: 1`. Mark in progress with `status: 2`.
+- Waiting On items that are someone else's Freedcamp task: fetch them with `fc_fetch_task` to report their current status.
+
 ## Extracting Tasks
 
 When summarizing meetings or conversations, offer to add extracted tasks:

@@ -10,7 +10,7 @@ Query patterns for gathering organizational context during plugin customization.
 - Look for: repository links, CI/CD mentions
 
 **Project management:**
-- Search: "Asana" OR "Jira" OR "Linear" OR "Monday"
+- Search: "Asana" OR "Jira" OR "Linear" OR "Monday" OR "Freedcamp"
 - Search: "sprint" AND "tickets"
 - Look for: task links, project board mentions
 

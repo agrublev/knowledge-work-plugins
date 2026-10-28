@@ -29,8 +29,10 @@ Read `TASKS.md` and `memory/` directory. If they don't exist, suggest `/producti
 ### 2. Sync Tasks from External Sources
 
 Check for available task sources:
-- **Project tracker** (e.g. Asana, Linear, Jira) (if MCP available)
+- **Project tracker** (e.g. Freedcamp, Asana, Linear, Jira) (if MCP available)
 - **GitHub Issues** (if in a repo): `gh issue list --assignee=@me`
+
+With Freedcamp, get the user's ID from `fc_fetch_current_session`, then call `fc_fetch_tasks` without a `project_id` (covers every project) and with `filters.assigned_to_id: [<user id>]` and `filters.status: ["STATUS_NOT_STARTED", "STATUS_IN_PROGRESS", "STATUS_REVIEW"]`. To detect tasks completed externally, fetch the matching IDs with `fc_fetch_task`. When the user confirms marking a task done, also offer `fc_update_status` with `status: 1`.
 
 If no sources are available, skip to Step 3.
 
@@ -96,7 +98,7 @@ Tasks often contain richer context than memory. Extract and update:
 
 ```
 Update complete:
-- Tasks: +3 from project tracker (e.g. Asana), 1 completed, 2 triaged
+- Tasks: +3 from project tracker (e.g. Freedcamp), 1 completed, 2 triaged
 - Memory: 2 gaps filled, 1 project enriched
 - All tasks decoded ✓
 ```
