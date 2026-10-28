@@ -38,7 +38,7 @@ Install plugins from [claude.com/plugins](https://claude.com/plugins/).
 
 ```bash
 # Add the marketplace first
-claude plugin marketplace add anthropics/knowledge-work-plugins
+claude plugin marketplace add agrublev/knowledge-work-plugins
 
 # Then install a specific plugin
 claude plugin install sales@knowledge-work-plugins
